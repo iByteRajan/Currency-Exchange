@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="abc">
+        <div class="container">
+            <div class="name">
+                <h1>Currency Exchanger</h1>
+            </div>
+            <header>
+                <div>
+                    <h3>Enter Amount : </h3>
+                    <input type="number">
+                </div>
+                <div class="box2">
+                    <h3>Converted Amount :</h3>
+                    <div class="outputArea">
+                        <div></div>
+                    </div>
+                </div>
+            </header>
+
+            <main>
+                <div class="sec1">
+                    <h3>From</h3>
+                    <div class="entryBox">
+                        <div class="flagbox">
+                            <div class="flag">
+                            <img src="https://flagsapi.com/IN/flat/64.png">
+                            </div>
+                        </div>
+                        <select class="From" name="From">
+                            <option name="curcode" value="INR">INR</option>
+                        </select>
+                    </div>
+
+                </div>
+                <div class="sec2">
+                    <h3>To</h3>
+                    <div class="entryBox">
+                        <div class="flagbox">
+                            <div class="flag">
+                            <img src="https://flagsapi.com/US/flat/64.png">
+                            </div>
+                        </div>
+                        <select class="To" name="To">
+                            <option name="curcode" value="USD">USD</option>
+                        </select>
+                    </div>
+                </div>
+            </main>
+            <footer>
+                <button>CONVERT</button>
+            </footer>
+        </div>
+    </div>
+    <script src="codes.js"></script>
+    <!-- <script src="app.js"></script> -->
+</body>
+</html>
