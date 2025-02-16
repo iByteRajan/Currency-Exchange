@@ -1,0 +1,160 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.container{
+    border-radius:2rem;
+}
+
+body{
+    color:rgb(11, 10, 10);
+    background-color:#216869;
+    text-align:center;
+}
+.abc{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.container{
+    height:45vh;
+    width:50vw;
+    background-color:#ffb3c1;
+}
+
+                                    /* HEADER CSS  */
+.name{
+    height:10vh;
+    width:50vw;
+    background-color:#ff477e;
+    border-top-left-radius:2rem;
+    border-top-right-radius:2rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:#fff0f3;
+}
+
+header{
+    height:9vh;
+    display:flex;
+    flex-direction:row;
+    color:#590d22;
+}
+
+header div{
+    width:25vw;
+}
+
+header h3{
+    padding:0.5vh;
+}
+header input{
+    height:3vh;
+    padding-left:0.2rem;
+    font-size:1rem;
+    width:35%;
+}
+
+.outputArea{
+    height:3vh;
+    padding-left:0.2rem;
+    background-color:white;
+    width:35%;
+    margin-left:32%;
+    border-style:solid;
+    border-width:0.08rem;
+    text-align:left;
+    font-size:1rem;
+    display:flex;
+    align-items:center;
+}
+
+
+                                    /* MAIN CSS */
+
+main{
+    height:18vh;
+    background-color:#ffb3c1;
+    display:flex;
+    color:#590d22;
+}
+
+.sec1,.sec2{
+    width:25vw;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+}
+
+.entryBox{
+    background-color:white;
+    width:12rem;
+    text-align:right;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-between;
+    border-radius:2rem;
+    margin-top:0.5rem;
+
+}
+
+.entryBox select{
+    height:2.5rem;
+    margin-right:1rem;
+    border-style:none;
+    background-color:transparent;
+    outline:none;
+}
+.flagbox{
+    background-color:white;
+    height:2.5rem;
+    width:2.5rem;
+    display:inline-block;
+    border-top-left-radius:2rem;
+    border-bottom-left-radius:2rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.flagbox div{
+    height:2.1rem;
+    width:2.1rem;
+    border-radius:2rem;
+    margin:0.1rem;
+    margin-left:0.2rem;
+    overflow:hidden;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.flagbox div img{
+    height:159%;
+    width:100%;
+    object-fit:cover;
+    object-position:center;
+}
+
+                                    /* FOOTER CSS */
+
+footer button{
+    border:none;
+    height:8vh;
+    width:50vw;
+    background-color:#ffecd1;
+    font-size:1.5rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+footer button:hover{
+    background-color:#ff8fa3;
+}
+footer button:active{
+    background-color:#590d22;
+    color:white;
+}
