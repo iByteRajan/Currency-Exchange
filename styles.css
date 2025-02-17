@@ -20,7 +20,7 @@
 
 body{
     color:rgb(11, 10, 10);
-    background-color:#216869;
+    background-color:#bde0fe;
     text-align:center;
 }
 
@@ -95,11 +95,19 @@ header h3{
 @media(max-width:800px) and (min-width:500px){
     header input{
         width:15vw;
+        height:3.1vh;
     }
 }
-@media(max-width:500px){
+@media(max-width:500px) and (min-width:380px){
     header input{
         width:55%;
+        height:3vh;
+    }
+}
+@media(max-width:380px){
+    header input{
+        width:55%;
+        height:3.1vh;
         margin-top:1.09rem;
     }
 }
@@ -168,6 +176,7 @@ main{
 @media(max-width:500px){
     .entryBox{
         width:30vw;
+        height:2.5rem;
     }
 }
 
@@ -178,7 +187,6 @@ main{
     background-color:transparent;
     outline:none;
 }
-
 
 .flagbox{
     background-color:white;
@@ -191,6 +199,12 @@ main{
     justify-content:center;
     align-items:center;
 }
+@media(max-width:500px){
+    .flagbox{
+        height:2.5rem;
+        width:2.9rem;
+    }
+}
 .flagbox div{
     height:2.7rem;
     width:2.7rem;
@@ -201,6 +215,12 @@ main{
     display:flex;
     justify-content:center;
     align-items:center;
+}
+@media(max-width:500px){
+    .flagbox div{
+        width:2.2rem;
+        height:2.2rem;
+    }
 }
 .flagbox div img{
     height:159%;
