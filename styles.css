@@ -1,9 +1,21 @@
+                    /* GENERAL CSS PROPERTIES */
 *{
     margin:0px;
     padding:0px;
 }
 .container{
     border-radius:2rem;
+    font-size:1.3rem;
+}
+@media(max-width:800px) and (min-width:500px){
+    .container{
+        font-size:1rem;
+    }
+}
+@media(max-width:500px){
+    .container{
+        font-size:1rem;
+    }
 }
 
 body{
@@ -11,6 +23,8 @@ body{
     background-color:#216869;
     text-align:center;
 }
+
+                        /* CONTAINER CSS PROPERTIES */
 .abc{
     height:100vh;
     display:flex;
@@ -18,16 +32,33 @@ body{
     align-items:center;
 }
 
-.container{
-    height:45vh;
-    width:50vw;
-    background-color:#ffb3c1;
+@media(min-width:800px){
+    .container{
+        height:45vh;
+        width:50vw;
+        background-color:#ffb3c1;
+    }
 }
 
-                                    /* HEADER CSS  */
+@media(max-width:800px) and (min-width:500px){
+    .container{
+        height:45vh;
+        width:65vw;
+        background-color:#ffb3c1;
+    }
+}
+@media(max-width:500px){
+    .container{
+        height:45vh;
+        width:83vw;
+        background-color:#ffb3c1;
+    }
+}
+
+                    /* INPUT/OUTPUT AREA CSS  PROPERTIES */
 .name{
     height:10vh;
-    width:50vw;
+    width: 100%;
     background-color:#ff477e;
     border-top-left-radius:2rem;
     border-top-right-radius:2rem;
@@ -44,26 +75,41 @@ header{
     color:#590d22;
 }
 
-header div{
-    width:25vw;
+.box1, .box2{
+    margin-top:1vh;
+    width:50%;
 }
 
 header h3{
     padding:0.5vh;
 }
-header input{
-    height:3vh;
-    padding-left:0.2rem;
-    font-size:1rem;
-    width:35%;
+@media(min-width:800px){
+    header input{
+        height:2.9vh;
+        padding-left:0.2rem;
+        font-size:1rem;
+        width:55%;
+    }
+}
+
+@media(max-width:800px) and (min-width:500px){
+    header input{
+        width:15vw;
+    }
+}
+@media(max-width:500px){
+    header input{
+        width:55%;
+        margin-top:1.09rem;
+    }
 }
 
 .outputArea{
     height:3vh;
     padding-left:0.2rem;
     background-color:white;
-    width:35%;
-    margin-left:32%;
+    width:55%;
+    margin-left:22%;
     border-style:solid;
     border-width:0.08rem;
     text-align:left;
@@ -71,9 +117,20 @@ header input{
     display:flex;
     align-items:center;
 }
+@media(max-width:800px) and (min-width:500px){
+    .outputArea{
+        width:45%;
+        margin-left:27%;
+    }
+}
+@media(max-width:500px){
+    .outputArea{
+        width:55%;
+        margin-left:22%;
+     }
+}
 
-
-                                    /* MAIN CSS */
+                        /* SELECTION AREA CSS PROPERTIES */
 
 main{
     height:18vh;
@@ -83,7 +140,7 @@ main{
 }
 
 .sec1,.sec2{
-    width:25vw;
+    width:50%;
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -93,7 +150,7 @@ main{
 
 .entryBox{
     background-color:white;
-    width:12rem;
+    width:16vw;
     text-align:right;
     display:flex;
     flex-direction:row;
@@ -101,7 +158,17 @@ main{
     justify-content:space-between;
     border-radius:2rem;
     margin-top:0.5rem;
+}
 
+@media(max-width:800px) and (min-width:500px){
+    .entryBox{
+        width:20vw;
+    }
+}
+@media(max-width:500px){
+    .entryBox{
+        width:30vw;
+    }
 }
 
 .entryBox select{
@@ -111,10 +178,12 @@ main{
     background-color:transparent;
     outline:none;
 }
+
+
 .flagbox{
     background-color:white;
-    height:2.5rem;
-    width:2.5rem;
+    height:3.2rem;
+    width:3.2rem;
     display:inline-block;
     border-top-left-radius:2rem;
     border-bottom-left-radius:2rem;
@@ -123,8 +192,8 @@ main{
     align-items:center;
 }
 .flagbox div{
-    height:2.1rem;
-    width:2.1rem;
+    height:2.7rem;
+    width:2.7rem;
     border-radius:2rem;
     margin:0.1rem;
     margin-left:0.2rem;
@@ -140,15 +209,20 @@ main{
     object-position:center;
 }
 
-                                    /* FOOTER CSS */
+                        /* BUTTON SECTION CSS PROPERTIES */
 
 footer button{
     border:none;
     height:8vh;
-    width:50vw;
+    width:100%;
     background-color:#ffecd1;
     font-size:1.5rem;
     font-family:Georgia, 'Times New Roman', Times, serif;
+}
+@media(max-width:800px) and (min-width:500px){
+    .footer button{
+        width: 100%;
+    }
 }
 
 footer button:hover{
